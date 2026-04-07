@@ -1,77 +1,70 @@
-# ☕ Big Data Analysis with MapReduce
+# 📊 Big Data Analysis using MapReduce (Python)
 
-## Overview
-This project applies Big Data processing techniques using MongoDB and MapReduce to analyze coffee sales data.
+## 🚀 Project Overview
+This project demonstrates the implementation of **MapReduce-based big data processing** using Python.
 
----
-
-## 🧠 Problem Statement
-The goal is to process transaction-level data and extract insights such as total sales, top consumers, and sales trends over time.
+The goal is to process large-scale transactional coffee sales data, extract meaningful insights, and visualize trends.
 
 ---
 
 ## ⚙️ Technologies Used
-- MongoDB  
-- pymongo  
-- mrjob (MapReduce framework in Python)  
-- Python  
+- Python
+- MapReduce Programming Model
+- Pandas
+- Matplotlib
 
 ---
 
-## 🔄 Data Pipeline
-
-1. Data extraction from MongoDB  
-2. Cleaning and structuring transaction records  
-3. Generating structured dataset  
-4. Applying MapReduce for analysis  
-
----
-
-## 📊 Key Tasks
-
-### Task 1 – Sales Aggregation
-- Extract transaction data  
-- Transform into structured format  
-- Compute total sales per coffee type using MapReduce  
+## 📂 Project Structure
+- `task1_1.py`, `task1_2.py` → Data processing (MapReduce logic)
+- `task2_*.py` → Aggregation and analysis tasks
+- `*_line_plot.py` → Visualization scripts
+- `task2_1_output.pdf` → Sales trend results
+- `task2_2_output.pdf` → User spending analysis
+- `mapreduce_project_report.pdf` → Final report
 
 ---
 
-### Task 2 – Advanced Analysis
+## 📈 Key Analysis
 
-#### 📉 Bottom-selling coffee types
-- Identify lowest performing products  
-- Analyze monthly sales trends  
-- Visualize results  
+### ☕ Sales Trends
+- Identified trends of **low-performing coffee types over time**
+- Observed fluctuations in monthly sales
 
-#### 👤 Top consumers
-- Identify highest spending customers  
-- Analyze monthly expenditure  
-- Visualize consumption patterns  
+### 👤 User Behavior
+- Analyzed **top users' monthly spending**
+- Identified high-value customers
 
 ---
 
-## 📈 Key Insights
-- Clear differences in product performance  
-- Identified top customer segments based on spending  
-- Seasonal trends observed in coffee sales  
+## 📊 Visualizations
+The project includes:
+- Line plots for sales trends
+- User spending analysis charts
+- Aggregated outputs exported as PDF reports
 
 ---
 
-## 📁 Files
-- `task1_1.py` – Data extraction  
-- `task1_2.py` – Sales aggregation  
-- `task2_1.py` – Bottom-selling analysis  
-- `task2_2.py` – Top consumers analysis  
+## 💡 Key Insights
+- Certain coffee types show consistent low performance
+- A small group of users contributes significantly to total revenue
+- Spending patterns vary over time, indicating seasonal behavior
 
 ---
 
-## 🚀 Key Learning Outcomes
-- Applied MapReduce paradigm to real-world data  
-- Built scalable data processing workflow  
-- Worked with NoSQL databases (MongoDB)  
-- Performed large-scale data analysis  
+## 🧠 Learning Outcomes
+- Applied MapReduce concepts in Python
+- Performed large-scale data aggregation
+- Developed data visualization skills
+- Translated raw data into business insights
 
 ---
 
-## 👩‍💻 Author
-This project demonstrates practical Big Data processing and distributed computing concepts using Python.
+## 📌 Conclusion
+This project showcases practical skills in **big data processing, analytics, and visualization**, aligning with real-world data science workflows.
+
+---
+
+## 🔗 Author
+**Didem Demirci**  
+Business Analytics → Master of Research (Western Sydney University)
